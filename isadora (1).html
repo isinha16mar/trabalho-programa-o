@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Site trabalho de programação</title>
+
+  <style>
+    body {
+      background-color: sandybrown;
+      color: white;
+      text-align: center;
+    }
+
+    img {
+      width: 50%;
+      max-width: 800px;
+      display: block;
+      margin: 0 auto;
+      cursor: pointer;
+    }
+  </style>
+
+  <script>
+    function mostrarAlerta() {
+      alert('Site criado por Isadora Marques 2ºC');
+    }
+
+    function redirecionarParaBlog() {
+      window.location.href = "https://www.cpt.com.br/artigos/pet-shop-um-negocio-de-sucesso-e-alta-lucratividade";
+    }
+
+    function redirecionarAoClicarNaImagem() {
+      window.location.href = "https://www.cpt.com.br/artigos/pet-shop-um-negocio-de-sucesso-e-alta-lucratividade";
+    }
+  </script>
+</head>
+
+<body>
+
+  <h1> Petshop: um negócio de sucesso e alta lucratividade  </h1>
+ 
+  <img src="C:\Users\Usuário\Downloads\petshop.jpg" onclick="redirecionarAoClicarNaImagem()">
+
+  <p>Clique no botão abaixo para ir para o blog:</p>
+  <button onclick="mostrarAlerta()">Clique aqui</button>
+  <button onclick="redirecionarParaBlog()">Ir para o Blog</button>
+
+  <p>Petshop: o amor e o carinho que te retribuem financeiramente </p>
+
+</body>
+
+</html>
